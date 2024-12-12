@@ -117,7 +117,7 @@ with col2:
     if selected_brand:
         chart2_data = chart2_data[(chart2_data["brands"] == selected_brand)]
         chart2_data = chart2_data.groupby("street_address")["counts"].sum().reset_index()
-        st.bar_chart(chart2_data, x='street_address', y='counts', x_label="Store", y_label="Visits", use_container_width=True)
+        st.bar_chart(chart2_data, x='street_address', y='counts', x_label="Store", y_label="Visits", use_container_width=True, color='#FF0000')
     else:
         chart2_data = chart2_data.groupby("brands")["counts"].sum().reset_index()
         st.bar_chart(chart2_data, x='brands', y=['counts'], x_label="Brand", y_label="Visits", use_container_width=True, color='#FF0000')

@@ -1,0 +1,82 @@
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > section.stSidebar.st-emotion-cache-1wqrzgl.e1dbuyne0 {
+    position: fixed !important;
+    user-select: auto !important;
+    width: 336px !important;
+    height: auto !important;
+    box-sizing: border-box !important;
+    flex-shrink: 0 !important;
+    border-radius: 20px !important;
+    top: 5% !important;
+    left: 2% !important;
+    height: 90% !important;
+    opacity: 93% !important;
+}
+#root > div:nth-child(1) > div.withScreencast > div > div > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1 > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4 {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1 > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4 > div > div > div > div:nth-child(1) > div > div {
+    position: fixed;
+    top: 5%;
+    right: 1%;
+    z-index: 100;
+    scale: 0.8;
+}
+
+#deckgl-wrapper {
+    left: -299px !important;
+    top: -141px !important;
+    width: 127% !important;
+    height: 157% !important;
+}
+
+.st-emotion-cache-h4xjwg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 0rem !important;
+    background: rgb(14, 17, 23);
+    outline: none;
+    z-index: 999990;
+    display: block;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1 > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4 > div > div > div > div.stHorizontalBlock.st-emotion-cache-ocqkz7.eiemyj0 {
+    position: fixed;
+    scale: 1;
+    bottom: 5%;
+    width: 67%;
+    height: 37%;
+    right: -24%;
+    background: #0e1117;
+    padding: 20px;
+    border-radius: 20px;
+    opacity: 91%;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1 > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4 > div > div > div > div.stHorizontalBlock.st-emotion-cache-ocqkz7.eiemyj0 > div:nth-child(1) > div > div > div > div:nth-child(2) > div > div > div.stVegaLiteChart.st-emotion-cache-1ne4cot.e9hk5zh0.vega-embed.has-actions > div > canvas {
+    width: 448.446px;
+    height: 350px;
+    scale: 0.6;
+    position: fixed;
+    bottom: -22%;
+    left: -8%;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1 > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4 > div > div > div > div.stHorizontalBlock.st-emotion-cache-ocqkz7.eiemyj0 > div:nth-child(2) > div > div > div > div:nth-child(2) > div > div > div.stVegaLiteChart.st-emotion-cache-1ne4cot.e9hk5zh0.vega-embed.has-actions > div > canvas {
+    width: 448.446px;
+    height: 350px;
+    scale: 0.6;
+    position: fixed;
+    bottom: -22%;
+    left: 23%;
+}
+.st-emotion-cache-17oy5c7 {
+    background: rgb(255, 75, 75) !important;
+}
+    

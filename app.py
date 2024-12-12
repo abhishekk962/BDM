@@ -6,7 +6,9 @@ import pandas as pd
 st.set_page_config(layout="wide")
 
 # Sidebar 1
-st.sidebar.title("Where do you want to shop?")
+st.sidebar.title("SuperShopper")
+
+st.sidebar.write("Where do you want to shop?")
 
 # Main content
 data = pd.read_csv("2018-2023_final_data_with_weather_normalised.csv", low_memory=False)

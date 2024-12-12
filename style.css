@@ -5,7 +5,6 @@ footer {visibility: hidden;}
     position: fixed !important;
     user-select: auto !important;
     width: 336px !important;
-    height: auto !important;
     box-sizing: border-box !important;
     flex-shrink: 0 !important;
     border-radius: 20px !important;
@@ -13,6 +12,7 @@ footer {visibility: hidden;}
     left: 2% !important;
     height: 90% !important;
     opacity: 93% !important;
+    scale: 1 !important;
 }
 #root > div:nth-child(1) > div.withScreencast > div > div > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1 > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4 {
     padding-left: 0rem;
@@ -22,9 +22,9 @@ footer {visibility: hidden;}
 #root > div:nth-child(1) > div.withScreencast > div > div > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1 > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4 > div > div > div > div:nth-child(1) > div > div {
     position: fixed;
     top: 5%;
-    right: 5%;
+    right: 2%;
     z-index: 100;
-    scale: 1;
+    scale: 0.8;
 }
 
 #deckgl-wrapper {
@@ -51,7 +51,7 @@ footer {visibility: hidden;}
     scale: 1;
     bottom: 5%;
     width: 67%;
-    height: 30%;
+    height: 35%;
     right: -24%;
     background: #0e1117;
     padding: 20px;
@@ -61,21 +61,23 @@ footer {visibility: hidden;}
 
 #root > div:nth-child(1) > div.withScreencast > div > div > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1 > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4 > div > div > div > div.stHorizontalBlock.st-emotion-cache-ocqkz7.eiemyj0 > div:nth-child(1) > div > div > div > div:nth-child(2) > div > div > div.stVegaLiteChart.st-emotion-cache-1ne4cot.e9hk5zh0.vega-embed.has-actions > div > canvas {
     width: 448.446px;
-    height: 322px;
+    height: 322px !important;
     scale: 0.6;
     position: fixed;
-    bottom: -22%;
+    bottom: -32%;
     left: -8%;
 }
 
 #root > div:nth-child(1) > div.withScreencast > div > div > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1 > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4 > div > div > div > div.stHorizontalBlock.st-emotion-cache-ocqkz7.eiemyj0 > div:nth-child(2) > div > div > div > div:nth-child(2) > div > div > div.stVegaLiteChart.st-emotion-cache-1ne4cot.e9hk5zh0.vega-embed.has-actions > div > canvas {
     width: 448.446px;
-    height: 322px;
+    height: 322px !important;
     scale: 0.6;
     position: fixed;
-    bottom: -22%;
+    bottom: -32%;
     left: 23%;
 }
+
+
 .st-emotion-cache-17oy5c7 {
     background: rgb(255, 75, 75) !important;
 }

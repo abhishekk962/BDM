@@ -106,7 +106,7 @@ with col1:
         chart_data = chart_data[(chart_data["brands"] == selected_brand)]
     chart_data = chart_data.groupby("hour_of_day")["counts"].sum().reset_index()
 
-    st.line_chart(chart_data, y='counts', x='hour_of_day', x_label="Hour of Day", y_label="Visits", use_container_width=True)
+    st.line_chart(chart_data, y='counts', x='hour_of_day', x_label="Hour of Day", y_label="Visits", use_container_width=True, color='#FF0000')
 
 with col2:
     # Create a chart for the visits & discounts by store
@@ -120,4 +120,4 @@ with col2:
         st.bar_chart(chart2_data, x='street_address', y='counts', x_label="Store", y_label="Visits", use_container_width=True)
     else:
         chart2_data = chart2_data.groupby("brands")["counts"].sum().reset_index()
-        st.bar_chart(chart2_data, x='brands', y=['counts'], x_label="Brand", y_label="Visits", use_container_width=True)
+        st.bar_chart(chart2_data, x='brands', y=['counts'], x_label="Brand", y_label="Visits", use_container_width=True, color='#FF0000')

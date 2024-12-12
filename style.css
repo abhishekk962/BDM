@@ -22,16 +22,16 @@ footer {visibility: hidden;}
 #root > div:nth-child(1) > div.withScreencast > div > div > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1 > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4 > div > div > div > div:nth-child(1) > div > div {
     position: fixed;
     top: 5%;
-    right: 1%;
+    right: 5%;
     z-index: 100;
-    scale: 0.8;
+    scale: 1;
 }
 
 #deckgl-wrapper {
     left: -299px !important;
     top: -141px !important;
     width: 127% !important;
-    height: 157% !important;
+    height: 185% !important;
 }
 
 .st-emotion-cache-h4xjwg {
@@ -51,7 +51,7 @@ footer {visibility: hidden;}
     scale: 1;
     bottom: 5%;
     width: 67%;
-    height: 37%;
+    height: 30%;
     right: -24%;
     background: #0e1117;
     padding: 20px;

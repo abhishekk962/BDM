@@ -81,4 +81,16 @@ footer {visibility: hidden;}
 .st-emotion-cache-17oy5c7 {
     background: rgb(255, 75, 75) !important;
 }
-    
+
+#root > div:nth-child(1) > div.withScreencast > div > div > section.stSidebar.st-emotion-cache-1wqrzgl.e1dbuyne0 > div.st-emotion-cache-6qob1r.e1dbuyne8 > div.st-emotion-cache-kgpedg.e1dbuyne10 {
+    height: 1%;
+    padding: 5%;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > section.stSidebar.st-emotion-cache-1wqrzgl.e1dbuyne0 > div.st-emotion-cache-6qob1r.e1dbuyne8 > div.st-emotion-cache-a6qe2i.e1dbuyne7 > div > div > div > div > div:nth-child(3) > div > div > div.st-emotion-cache-7ti8k2.ef46xkf2 {
+    display: none;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > section.stSidebar.st-emotion-cache-1wqrzgl.e1dbuyne0 > div.st-emotion-cache-6qob1r.e1dbuyne8 > div.st-emotion-cache-a6qe2i.e1dbuyne7 {
+    padding: 0px 1.5rem 2rem;
+}

@@ -1,96 +1,233 @@
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
+#MainMenu {
+  visibility: hidden;
+}
+footer {
+  visibility: hidden;
+}
 
-#root > div:nth-child(1) > div.withScreencast > div > div > section.stSidebar.st-emotion-cache-1wqrzgl.e1dbuyne0 {
+#root
+  > div:nth-child(1)
+  > div.withScreencast
+  > div
+  > div
+  > section.stSidebar.st-emotion-cache-1wqrzgl.e1dbuyne0 {
     position: fixed !important;
     user-select: auto !important;
-    width: 336px !important;
+    width: 28% !important;
     box-sizing: border-box !important;
     flex-shrink: 0 !important;
-    border-radius: 20px !important;
-    top: 5% !important;
-    left: 2% !important;
-    height: 90% !important;
+    border-radius: 0.5rem !important;
+    top: 2.7% !important;
+    left: 1.4% !important;
+    height: 89% !important;
     opacity: 93% !important;
     scale: 1 !important;
 }
-#root > div:nth-child(1) > div.withScreencast > div > div > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1 > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4 {
-    padding-left: 0rem;
-    padding-right: 0rem;
+
+.st-emotion-cache-1wqrzgl {
+    background: rgba(14, 17, 23, 0.95) !important;
+    border: 1px solid #fb4a4a !important;
 }
 
-#root > div:nth-child(1) > div.withScreencast > div > div > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1 > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4 > div > div > div > div:nth-child(1) > div > div {
-    position: fixed;
-    top: 5%;
-    right: 2%;
-    z-index: 100;
-    scale: 0.8;
+#root
+  > div:nth-child(1)
+  > div.withScreencast
+  > div
+  > div
+  > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1
+  > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4 {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+#root
+  > div:nth-child(1)
+  > div.withScreencast
+  > div
+  > div
+  > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1
+  > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4
+  > div
+  > div
+  > div
+  > div:nth-child(1)
+  > div
+  > div {
+  position: fixed;
+  bottom: 2%;
+  left: 1.5%;
+  z-index: 100;
 }
 
 #deckgl-wrapper {
-    left: -299px !important;
-    top: -141px !important;
-    width: 127% !important;
-    height: 185% !important;
+  left: -299px !important;
+  top: -141px !important;
+  width: 127% !important;
+  height: 185% !important;
 }
 
 .st-emotion-cache-h4xjwg {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    height: 0rem !important;
-    background: rgb(14, 17, 23);
-    outline: none;
-    z-index: 999990;
-    display: block;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 0rem !important;
+  background: rgb(14, 17, 23);
+  outline: none;
+  z-index: 999990;
+  display: block;
 }
 
-#root > div:nth-child(1) > div.withScreencast > div > div > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1 > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4 > div > div > div > div.stHorizontalBlock.st-emotion-cache-ocqkz7.eiemyj0 {
-    position: fixed;
-    scale: 1;
-    bottom: 5%;
-    width: 67%;
-    height: 35%;
-    right: -24%;
-    background: #0e1117;
-    padding: 20px;
-    border-radius: 20px;
-    opacity: 91%;
+#root
+  > div:nth-child(1)
+  > div.withScreencast
+  > div
+  > div
+  > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1
+  > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4
+  > div
+  > div
+  > div
+  > div.stHorizontalBlock.st-emotion-cache-ocqkz7.eiemyj0 {
+  position: fixed;
+  scale: 1;
+  bottom: 5%;
+  width: 67%;
+  height: 35%;
+  right: -24%;
+  background: #0e1117;
+  padding: 20px;
+  border-radius: 0.5rem !important;
+  opacity: 91%;
 }
 
-#root > div:nth-child(1) > div.withScreencast > div > div > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1 > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4 > div > div > div > div.stHorizontalBlock.st-emotion-cache-ocqkz7.eiemyj0 > div:nth-child(1) > div > div > div > div:nth-child(2) > div > div > div.stVegaLiteChart.st-emotion-cache-1ne4cot.e9hk5zh0.vega-embed.has-actions > div > canvas {
-    width: 448.446px;
-    height: 322px !important;
-    scale: 0.6;
-    position: fixed;
-    bottom: -28%;
-    left: -8%;
+#root
+  > div:nth-child(1)
+  > div.withScreencast
+  > div
+  > div
+  > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1
+  > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4
+  > div
+  > div
+  > div
+  > div.stHorizontalBlock.st-emotion-cache-ocqkz7.eiemyj0
+  > div:nth-child(1)
+  > div
+  > div
+  > div
+  > div:nth-child(2)
+  > div
+  > div
+  > div.stVegaLiteChart.st-emotion-cache-1ne4cot.e9hk5zh0.vega-embed.has-actions
+  > div
+  > canvas {
+  border-radius: 0.5rem !important;
 }
 
-#root > div:nth-child(1) > div.withScreencast > div > div > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1 > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4 > div > div > div > div.stHorizontalBlock.st-emotion-cache-ocqkz7.eiemyj0 > div:nth-child(2) > div > div > div > div:nth-child(2) > div > div > div.stVegaLiteChart.st-emotion-cache-1ne4cot.e9hk5zh0.vega-embed.has-actions > div > canvas {
-    width: 448.446px;
-    height: 322px !important;
-    scale: 0.6;
-    position: fixed;
-    bottom: -28%;
-    left: 23%;
+#root
+  > div:nth-child(1)
+  > div.withScreencast
+  > div
+  > div
+  > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1
+  > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4
+  > div
+  > div
+  > div
+  > div.stHorizontalBlock.st-emotion-cache-ocqkz7.eiemyj0
+  > div:nth-child(2)
+  > div
+  > div
+  > div
+  > div:nth-child(2)
+  > div
+  > div
+  > div.stVegaLiteChart.st-emotion-cache-1ne4cot.e9hk5zh0.vega-embed.has-actions
+  > div
+  > canvas {
+  border-radius: 0.5rem !important;
 }
-
 
 .st-emotion-cache-17oy5c7 {
-    background: rgb(255, 75, 75) !important;
+  background: rgb(26, 11, 11) !important;
 }
 
-#root > div:nth-child(1) > div.withScreencast > div > div > section.stSidebar.st-emotion-cache-1wqrzgl.e1dbuyne0 > div.st-emotion-cache-6qob1r.e1dbuyne8 > div.st-emotion-cache-kgpedg.e1dbuyne10 {
-    height: 1%;
-    padding: 5%;
+#root
+  > div:nth-child(1)
+  > div.withScreencast
+  > div
+  > div
+  > section.stSidebar.st-emotion-cache-1wqrzgl.e1dbuyne0
+  > div.st-emotion-cache-6qob1r.e1dbuyne8
+  > div.st-emotion-cache-kgpedg.e1dbuyne10 {
+  height: 1%;
+  padding: 1%;
 }
 
-#root > div:nth-child(1) > div.withScreencast > div > div > section.stSidebar.st-emotion-cache-1wqrzgl.e1dbuyne0 > div.st-emotion-cache-6qob1r.e1dbuyne8 > div.st-emotion-cache-a6qe2i.e1dbuyne7 > div > div > div > div > div:nth-child(3) > div > div > div.st-emotion-cache-7ti8k2.ef46xkf2 {
-    display: none;
+#root
+  > div:nth-child(1)
+  > div.withScreencast
+  > div
+  > div
+  > section.stSidebar.st-emotion-cache-1wqrzgl.e1dbuyne0
+  > div.st-emotion-cache-6qob1r.e1dbuyne8
+  > div.st-emotion-cache-a6qe2i.e1dbuyne7
+  > div
+  > div
+  > div
+  > div
+  > div:nth-child(3)
+  > div
+  > div
+  > div.st-emotion-cache-7ti8k2.ef46xkf2 {
+  display: none;
 }
 
-#root > div:nth-child(1) > div.withScreencast > div > div > section.stSidebar.st-emotion-cache-1wqrzgl.e1dbuyne0 > div.st-emotion-cache-6qob1r.e1dbuyne8 > div.st-emotion-cache-a6qe2i.e1dbuyne7 {
-    padding: 0px 1.5rem 2rem;
+#root
+  > div:nth-child(1)
+  > div.withScreencast
+  > div
+  > div
+  > section.stSidebar.st-emotion-cache-1wqrzgl.e1dbuyne0
+  > div.st-emotion-cache-6qob1r.e1dbuyne8
+  > div.st-emotion-cache-a6qe2i.e1dbuyne7 {
+  padding: 0px 1.5rem 2rem;
+}
+
+.st-emotion-cache-1eoatk1 {
+  width: 100% !important;
+}
+
+#root
+  > div:nth-child(1)
+  > div.withScreencast
+  > div
+  > div
+  > section.stMain.st-emotion-cache-bm2z3a.ekr3hml1
+  > div.stMainBlockContainer.block-container.st-emotion-cache-1ibsh2c.ekr3hml4
+  > div
+  > div
+  > div
+  > div.stHorizontalBlock.st-emotion-cache-ocqkz7.eiemyj0 {
+    position: fixed !important;
+    scale: 1 !important;
+    bottom: 8.3% !important;
+    width: 28% !important;
+    height: 89.2% !important;
+    right: 1.6% !important;
+    background: #0e1016 !important;
+    border-radius: 0.5rem !important;
+    opacity: 91% !important;
+    display: block !important;
+    overflow: scroll !important;
+    border: 1px solid #ff4b4b !important;
+}
+
+.st-emotion-cache-1espb9k h1 {
+    color: rgb(255, 75, 75);
+}
+
+.st-emotion-cache-17oy5c7 {
+    background: rgba(255, 75, 75, 0.5) !important;
 }
